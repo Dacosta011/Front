@@ -1,0 +1,31 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .card-app {
+    background: rgb(153, 153, 153);
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    button{
+      width: 200px;
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 25px;
+      
+    }
+  }
+}
